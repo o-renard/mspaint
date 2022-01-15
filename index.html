@@ -4,44 +4,13 @@
     <meta charset="UTF-8">
     <title>Paint</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="fonctions.js"></script>
 </head>
 <body>
-    </br>
-    <div class="tools">
-        <button class="open" onclick="show_download()">Ouvrir une image</button>
-    </div> 
-    </br>
-    <div class="draw">
-        <div class="download" id="download">
-            <input type="file" id="picture" name="picture" accept="image/*" onclick="get_picture();"/>
-            <button type="button" onclick="hidden_download();">Valider</button>
-        </div>
+    <div class="title">
+        <h1>The New Paint</h1>
     </div>
-    <div class="color">
-        <div class="RGB" id="RGB">
-            <form>
-                <div>
-                    <label for="x">Rouge</label>
-                    <input type="number" id="x" name="x"/>
-                </div>
-                <div>
-                    <label for="y">Vert</label>
-                    <input type="number" id="y" name="y"/>
-                </div>
-                <div>
-                    <label for="z">Bleu</label>
-                    <input type="number" id="z" name="z"/>
-                </div>
-                <div>
-                    <button type="button">Valider</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="option_color">
-         <button onclick="hidden_RGB();">Spectre</button>
-        <button onclick="show_RGB();">RVB</button>
+    <div class="start">        
+        <a href="main.html">Commencer</a>
     </div>
 </body>
 </html>
