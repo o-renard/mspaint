@@ -13,14 +13,11 @@ function open_picture(){
     image.style.maxWidth = "100%";
     image.style.maxHeight = "100%";
     image.src = window.URL.createObjectURL(my_file[0]);
+    document.getElementById("download").style.display = "none";
 }
 
 function show_download(){
     document.getElementById("download").style.display = "block";
-}
-
-function hidden_download(){
-    document.getElementById("download").style.display = "none";
 }
 
 function hidden_RGB(){
